@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "905305954708",
+    "firebase_url": "https://providerkullanimi-219c2.firebaseio.com",
+    "project_id": "providerkullanimi-219c2",
+    "storage_bucket": "providerkullanimi-219c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905305954708:android:f08affcaeda706dfe31781",
+        "android_client_info": {
+          "package_name": "com.flutter.state"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905305954708-bv4l4k96u2cpf8lpqd5ae3ur7dmula6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKy2QpRbCzHYHaQgo_CgQHnvYlfo7tqTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905305954708-bv4l4k96u2cpf8lpqd5ae3ur7dmula6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
