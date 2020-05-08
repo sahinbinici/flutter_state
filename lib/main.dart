@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:state/block/bloc_paket/flutter_bloc_paket.dart';
 import 'package:state/block/sayac/block_kullanimi.dart';
 import 'package:state/providerWithFirebaseAuth.dart';
 import 'package:state/provider_package_kullanimi.dart';
@@ -86,7 +87,10 @@ class _MyHomePageState extends State<MyHomePage> {
             },child: Text("Stream Kullanini",style: TextStyle(color: Colors.white),),color: Colors.blue,),
             RaisedButton(onPressed: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (context)=>BlockKullanimi()));
-            },child: Text("Block Kullanimi",style: TextStyle(color: Colors.white),),color: Colors.blue,)
+            },child: Text("Block Kullanimi",style: TextStyle(color: Colors.white),),color: Colors.blue,),
+            RaisedButton(onPressed: (){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FlutterBlockPaketKullanimi()));
+            },child: Text("Bloc Paket Kullanimi",style: TextStyle(color: Colors.white),),color: Colors.blue,)
           ],
         ),
       ),
